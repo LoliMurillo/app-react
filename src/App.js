@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginForm from './core/componentsLogin/Login/LoginForm';
-import Title from './core/componentsLogin/Title/Title';
 
+import './App.css';
+
+import Title from './core/componentsLogin/Title/Title';
+import Login from './core/componentsLogin/Login';
 
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
     <div className="App">
 
       <Title />
-      <LoginForm />
-      
+      <Login />
+
+
 
     </div>
   );

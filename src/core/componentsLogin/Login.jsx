@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import Title from '../Title/Title';
-import Label from './../Label/Label';
-import Input from './../Input/Input';
-
-import './LoginForm.css'
+import './Login.css';
+import Label from './Label/Label';
+import Title from './Title/Title';
+import Input from './Input/Input';
 
 
 const Login = () => {
