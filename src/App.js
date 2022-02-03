@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import userPages from './user/functions/userPages';
+import LoginForm from './core/componentsLogin/Login/LoginForm';
+import Title from './core/componentsLogin/Title/Title';
+
+
 
 function App() {
   return (
     <div className="App">
-      <userPages />
+
+      <Title />
+      <LoginForm />
+      
+
     </div>
   );
 }
-
 export default App;
