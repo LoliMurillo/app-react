@@ -68,7 +68,7 @@ const Login = () => {
 			{!isLogin ?
 				<div className='home-container'>
 					<h1>¡Hola {user}!</h1>
-					<label>Has iniciado sesión.</label>
+					<Label>Has iniciado sesión.</Label>
 				</div>
 				:
 				< div className='LoginContent'>
@@ -83,7 +83,7 @@ const Login = () => {
                                 </label>
 							}
 							<div className='ItemUserLogin'>
-								<Label text={""} />
+								<Label text={"Esto es una prueba"} />
 								<Input
 									attribute={{
 										id: "usuario",

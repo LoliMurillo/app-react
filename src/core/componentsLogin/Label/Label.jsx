@@ -1,5 +1,5 @@
 import React from "react";
-
+import Proptypes from "prop-types";
 
 const Label = ({ text }) => {
 	return (
@@ -12,4 +12,11 @@ const Label = ({ text }) => {
 	);
 };
 
+Label.defaultProps = {
+	text: "",
+};
+
+Label.proptypes = {
+	text: Proptypes.string.isRequired,
+};
 export default Label;
