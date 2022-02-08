@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
 
 const Label = ({ text }) => {
-    return (
-        <div>
-            <label>
-                {text}
-            </label>
+	return (
+		<div>
+			<label>
+				{text}
+			</label>
 
-        </div>
-    )
-}
+		</div>
+	);
+};
 
 export default Label;

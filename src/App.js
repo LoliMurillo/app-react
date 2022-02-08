@@ -1,20 +1,20 @@
 
-import './App.css';
+import "./App.css";
 
-import Title from './core/componentsLogin/Title/Title';
-import Login from './core/componentsLogin/Login';
+import Title from "./core/componentsLogin/Title/Title";
+import Login from "./core/componentsLogin/Login";
 
 
 function App() {
-  return (
-    <div className="App">
+	return (
+		<div className="App">
 
-      <Title />
-      <Login />
+			<Title />
+			<Login />
 
 
 
-    </div>
-  );
+		</div>
+	);
 }
 export default App;
