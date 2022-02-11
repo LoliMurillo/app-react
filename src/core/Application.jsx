@@ -1,12 +1,14 @@
-
+import Title from "core/componentsLogin/Title/Title";
+import Login from "core/componentsLogin/Login";
+import Navbar from "./componentsLogin/Navbar/Navbar";
 
 const Application = () => {
 	return (
 		<div>
-					App
+			<Title />
+			<Login />
+			<Navbar />
 		</div>
-			
-		
 	);
 };
 
