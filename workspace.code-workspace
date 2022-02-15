@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "node-exercise-client",
+		"path": "../node/node-exercise-client"
+	},
+	{
+		"name": "node-example",
+		"path": "../node/node-example"
+	},
+	{
+		"name": "node-exercise-server",
+		"path": "../node/node-exercise-server"
+	}
+],
+  "settings": {}
+}

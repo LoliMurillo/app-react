@@ -12,8 +12,8 @@ const HomePage = () => {
 			</p>
 
 			<p>
-				Hay momentos en la vida e que un autista puede ser tu mayor y merjor
-				compañía. Ser autista es un modo de ser, aunque no se el normal..
+				Hay momentos en la vida de que un autista puede ser tu mayor y mejor
+				compañía. Ser autista es un modo de ser, aunque no sea el normal..
 			</p>
 		</div>
 	);
