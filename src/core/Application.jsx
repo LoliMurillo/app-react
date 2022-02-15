@@ -1,14 +1,16 @@
-import Title from "core/componentsLogin/Title/Title";
-import Navbar from "core/componentsLogin/Navbar/Navbar";
-import HomePage from "core/pages/home/HomePage";
+import { BrowserRouter } from "react-router-dom";
+
+import Title from "core/components/Title/Title";
+import Navbar from "core/components/Navbar/Navbar";
+import { RouterProvider } from "core/routes/RouterProvider";
 
 const Application = () => {
 	return (
-		<div>
+		<BrowserRouter>
 			<Title />
 			<Navbar />
-			<HomePage />
-		</div>
+			<RouterProvider />
+		</BrowserRouter>
 	);
 };
 

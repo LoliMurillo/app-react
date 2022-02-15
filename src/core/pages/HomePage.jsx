@@ -1,6 +1,6 @@
 import "./HomePage.css";
 
-const HomePage = () => {
+export const HomePage = () => {
 	return (
 		<div>
 			<p>
@@ -18,4 +18,3 @@ const HomePage = () => {
 		</div>
 	);
 };
-export default HomePage;
