@@ -1,6 +1,6 @@
 import Title from "core/components/Title/Title";
 import Navbar from "core/components/Navbar/Navbar";
-import HomePage from "core/pages/home/HomePage";
+import HomePage from "core/pages/HomePage";
 
 const Application = () => {
 	return (
