@@ -1,8 +1,10 @@
+import Title from "core/components/Title/Title";
 import "./HomePage.css";
 
 export const HomePage = () => {
 	return (
 		<div>
+			<Title text="Home page" />
 			<p>
 				Te ayudamos a conocer a personas como tú, con las que compartir tus
 				aficiones, tus gustos y momemtos divertidos. Te guiamos en el proceso de
