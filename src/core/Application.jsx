@@ -1,5 +1,5 @@
-import Title from "core/componentsLogin/Title/Title";
-import Navbar from "core/componentsLogin/Navbar/Navbar";
+import Title from "core/components/Title/Title";
+import Navbar from "core/components/Navbar/Navbar";
 import HomePage from "core/pages/home/HomePage";
 
 const Application = () => {
