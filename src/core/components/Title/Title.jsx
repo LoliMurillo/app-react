@@ -1,11 +1,9 @@
-import React from "react";
 import "./Title.css";
 
 const Title = ({ text }) => {
-
 	return (
-		<div className='title-container'>
-			<label className='title-label'> {text} </label>
+		<div className="title-container">
+			<h2 className="title-label"> {text} </h2>
 		</div>
 	);
 };
