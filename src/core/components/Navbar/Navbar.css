@@ -7,6 +7,9 @@ header {
 	background: rgb(191, 101, 230);
 }
 
+.Title {
+	color: rgb(53, 61, 70);
+}
 nav ul {
 	margin-top: 35px;
 	display: flex;

@@ -74,7 +74,7 @@ const Login = () => {
 								</label>
 							)}
 							<div className="ItemUserLogin">
-								<Label text={"Esto es una prueba"} />
+								<Label text={"Usuario"} />
 								<Input
 									attribute={{
 										id: "usuario",

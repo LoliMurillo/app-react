@@ -25,7 +25,7 @@
 .LoginLower {
 	width: 85%;
 	height: 40%;
-	background: #ffffff;
+	background: blueviolet(224, 204, 204);
 	margin: auto;
 	display: flex;
 	justify-content: center;

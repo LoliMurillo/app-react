@@ -1,13 +1,9 @@
-import React from "react";
 import Proptypes from "prop-types";
 
 const Label = ({ text }) => {
 	return (
 		<div>
-			<label>
-				{text}
-			</label>
-
+			<label>{text}</label>
 		</div>
 	);
 };
