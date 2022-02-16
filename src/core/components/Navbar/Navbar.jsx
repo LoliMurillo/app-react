@@ -16,9 +16,9 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</nav>
-				<div to className="navbar-access">
-					Acceso
-				</div>
+				<Link className="navbar-access" to={"/Login"}>
+					Inicia sesión
+				</Link>
 			</header>
 		</div>
 	);

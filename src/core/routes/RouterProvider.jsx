@@ -3,6 +3,7 @@ import { UserProfilePage } from "user/pages/UserProfilePage";
 import { Layout } from "core/components/Layout";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
+import Login from "core/components/Login/Login";
 
 export const RouterProvider = () => {
 	return (
@@ -10,6 +11,7 @@ export const RouterProvider = () => {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="profile" element={<UserProfilePage />} />
+				<Route path="login" element={<Login />} />
 			</Routes>
 		</Layout>
 	);
