@@ -4,6 +4,7 @@ import { Layout } from "core/components/Layout";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Login from "core/components/Login/Login";
+import About from "core/pages/About";
 
 export const RouterProvider = () => {
 	return (
@@ -12,6 +13,7 @@ export const RouterProvider = () => {
 				<Route path="/" element={<HomePage />} />
 				<Route path="profile" element={<UserProfilePage />} />
 				<Route path="login" element={<Login />} />
+				<Route path="about" element={<About />} />
 			</Routes>
 		</Layout>
 	);

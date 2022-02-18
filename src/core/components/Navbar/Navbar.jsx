@@ -19,6 +19,9 @@ const Navbar = () => {
 				<Link className="navbar-access" to={"/Login"}>
 					Inicia sesión
 				</Link>
+				<Link className="about-us" to={"/About"}>
+					Sobre Nosotros
+				</Link>
 			</header>
 		</div>
 	);

@@ -1,0 +1,9 @@
+.div-about {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	padding: 0 20px;
+	background-color: blueviolet(224, 204, 204);
+	color: rgb(53, 61, 70);
+}
