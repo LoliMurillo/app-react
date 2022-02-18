@@ -1,10 +1,8 @@
-import React from "react";
 import "./Input.css";
-
 
 const Input = ({ attribute, handleChange, param }) => {
 	return (
-		<div>
+		<div className="input-container">
 			<input
 				id={attribute.id}
 				name={attribute.name}
@@ -14,7 +12,6 @@ const Input = ({ attribute, handleChange, param }) => {
 				className={param ? "input-error" : "regular-style"}
 			/>
 		</div>
-
 	);
 };
 
