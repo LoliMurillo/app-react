@@ -5,7 +5,7 @@ import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Login from "core/components/Login/Login";
 import About from "core/pages/About";
-import Form from "core/components/Form";
+import Form from "core/components/Form/Form";
 
 export const RouterProvider = () => {
 	return (

@@ -2,6 +2,7 @@ import { render, setConfig } from "core/functions";
 import Application from "core/Application";
 import reportWebVitals from "reportWebVitals";
 
+
 const appBuilder = () => {
 	setConfig();
 
