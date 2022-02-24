@@ -1,10 +1,10 @@
 
 import { useState } from "react";
 import {
-	Formulario, Label, ContenedorBotonCentrado,
+	Form, Label, ContenedorBotonCentrado,
 	ContenedorTerminos, Boton,
 	MensajeError, MensajeExito
-} from "./elements/Form";
+} from "core/components/Form/Form";
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -55,12 +55,12 @@ const App = () => {
 
 		if (
 			usuario.valido === "true" &&
-      nombre.valido === "true" &&
-      password.valido === "true" &&
-      password2.valido === "true" &&
-      correo.valido === "true" &&
-      telefono.valido === "true" &&
-      terminos
+			nombre.valido === "true" &&
+			password.valido === "true" &&
+			password2.valido === "true" &&
+			correo.valido === "true" &&
+			telefono.valido === "true" &&
+			terminos
 		) {
 			cambiarFormularioValido(true);
 			cambiarUsuario({ campo: "", valido: "" });
@@ -80,7 +80,7 @@ const App = () => {
 
 	return (
 		<main>
-			<Formulario action="" onSubmit={onSubmit}>
+			<Form action="" onSubmit={onSubmit}>
 
 				<Input
 					estado={nombre}
@@ -155,7 +155,7 @@ const App = () => {
 							checked={terminos}
 							onChange={onChangeTerminos}
 						/>
-            Acepto los Terminos y Condiciones
+						Acepto los Terminos y Condiciones
 					</Label>
 				</ContenedorTerminos>
 
@@ -171,7 +171,7 @@ const App = () => {
 					<Boton type="submit">Enviar</Boton>
 					{formularioValido === true && <MensajeExito>El Formulario se envío con exito!</MensajeExito>}
 				</ContenedorBotonCentrado>
-			</Formulario>
+			</Form>
 		</main >
 
 	);

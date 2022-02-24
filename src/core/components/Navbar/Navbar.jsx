@@ -16,8 +16,8 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</nav>
-				<Link className="navbar-access" to={"/Form"}>
-					Registrate
+				<Link className="form-register" to={"/Form"}>
+					Regístrate
 				</Link>
 				<Link className="navbar-access" to={"/Login"}>
 					Inicia sesión
