@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./About.css";
 import ImagenRo from "./img/ImagenRo.jpg";
 
