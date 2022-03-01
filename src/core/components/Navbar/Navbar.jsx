@@ -16,13 +16,13 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</nav>
-				<Link className="form-register" to={"/Form"}>
+				<Link className="form-register" to={"/form"}>
 					Regístrate
 				</Link>
-				<Link className="navbar-access" to={"/Login"}>
+				<Link className="navbar-access" to={"/login"}>
 					Inicia sesión
 				</Link>
-				<Link className="about-us" to={"/About"}>
+				<Link className="about-us" to={"/about"}>
 					Sobre Nosotros
 				</Link>
 			</header>
