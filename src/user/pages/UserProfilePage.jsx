@@ -1,4 +1,7 @@
 import Title from "core/components/Title/Title";
+import Grid from "core/components/Grid";
+import { Box } from "core/components/Box/Box";
+
 
 export const UserProfilePage = () => {
 	return (
@@ -12,10 +15,14 @@ export const UserProfilePage = () => {
 				intenso y por ello te ayudamos a conseguirlo. Vamos a por ello!
 			</p>
 
-			<p>
-				Hay momentos en la vida de que un autista puede ser tu mayor y mejor
-				compañía. Ser autista es un modo de ser, aunque no sea el normal..
-			</p>
+			<Grid container columns={300}>
+				<Grid>1</Grid>
+				<Grid>2</Grid> 
+				<Grid>3</Grid> 
+				<Grid>4</Grid> 
+				<Grid>5</Grid>
+				<Box>6</Box>
+			</Grid>
 		</>
 	);
 };
