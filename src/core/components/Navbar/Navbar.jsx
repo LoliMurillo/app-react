@@ -12,21 +12,34 @@ const Navbar = () => {
 							<Link to={"/"}>Inicio</Link>
 						</li>
 						<li>
-							<Link to={"/profile"}>Perfil</Link>
+							<Link to={"profile"}>Perfil</Link>
+						</li>
+						<li>
+							<Link className="about" to={"about"}>
+								Sobre Nosotros
+							</Link>
 						</li>
 					</ul>
 				</nav>
-				<Link className="form-register" to={"/form"}>
-					Regístrate
-				</Link>
-				<Link className="navbar-access" to={"/login"}>
-					Inicia sesión
-				</Link>
-				<Link className="about-us" to={"/about"}>
-					Sobre Nosotros
-				</Link>
+
+				<nav>
+					<ul>
+						<li>
+							<Link className="form-register" to={"register"}>
+							Regístrate
+							</Link>
+						</li>
+						<li>
+							<Link className="navbar-access" to={"login"}>
+							Inicia sesión
+							</Link>
+						</li>
+					</ul>
+				</nav>		
+				
 			</header>
 		</div>
 	);
 };
+
 export default Navbar;

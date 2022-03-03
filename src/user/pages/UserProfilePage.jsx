@@ -1,5 +1,4 @@
-import Title from "core/components/Title/Title";
-import imgUsuario from "core/pages/img/imgUsuario.jpg";
+import imgUsuario from "assets/images/imgUsuario.jpg";
 
 export const UserProfilePage = () => {
 	return (

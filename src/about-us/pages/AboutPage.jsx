@@ -1,5 +1,5 @@
-import "./About.css";
-import ImagenRo from "./img/ImagenRo.jpg";
+import "./AboutPage.css";
+import ImagenRo from "assets/images/ImagenRo.jpg";
 
 const About = () => {
 	return (
