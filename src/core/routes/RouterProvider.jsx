@@ -1,10 +1,10 @@
-import HomePage from "core/pages/HomePage";
+import HomePage from "core/pages/homepage/HomePage";
 import { UserProfilePage } from "user/pages/UserProfilePage";
 import { Layout } from "core/components/Layout";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Login from "core/components/Login/Login";
-import About from "core/pages/About";
+import About from "core/pages/about/About";
 import { Form } from "core/components/Form/Form";
 
 export const RouterProvider = () => {
