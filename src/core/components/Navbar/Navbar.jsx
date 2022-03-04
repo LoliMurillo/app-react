@@ -18,10 +18,10 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</nav>
-					<Link className="form-register" to={"/form"}>
+					<Link className="form-register" to={"/signup"}>
 						Regístrate
 					</Link>
-					<Link className="navbar-access" to={"/login"}>
+					<Link className="navbar-access" to={"/signin"}>
 						Inicia sesión
 					</Link>
 					<Link className="about-us" to={"/about"}>

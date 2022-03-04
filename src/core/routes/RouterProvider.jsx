@@ -3,9 +3,9 @@ import { UserProfilePage } from "user/pages/UserProfilePage";
 import { Layout } from "core/components/Layout";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
-import Login from "core/components/Login/Login";
 import About from "core/pages/about/About";
-import { Form } from "core/components/Form/Form";
+import { SignIn } from "core/pages/SignIn";
+import { SignUp } from "core/pages/SignUp";
 
 export const RouterProvider = () => {
 	return (
@@ -13,13 +13,9 @@ export const RouterProvider = () => {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="profile" element={<UserProfilePage />} />
-				<Route path="login" element={<Login />} />
 				<Route path="about" element={<About />} />
-				<Route path="form" element={<Form />} />
-			</Routes>
-			<Routes>
-				<Route path="/" element={<HomePage />} />
-				<Route path="profile" element={<UserProfilePage />} />
+				<Route path="signin" element={<SignIn />} />
+				<Route path="signup" element={<SignUp />} />
 			</Routes>
 		</Layout>
 	);
