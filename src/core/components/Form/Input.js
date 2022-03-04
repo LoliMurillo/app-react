@@ -22,7 +22,7 @@ const ComponenteInput = ({ estado, cambiarEstado, type, label, placeholder, name
 		if (funcion) {
 			funcion();
 		}
-	}
+	};
 
 
 

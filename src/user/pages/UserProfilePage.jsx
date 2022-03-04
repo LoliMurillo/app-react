@@ -1,10 +1,12 @@
 import Title from "core/components/Title/Title";
+import Grid from "core/components/Grid";
+import { Box } from "core/components/Box/Box";
 import imgUsuario from "core/pages/img/imgUsuario.jpg";
 
 export const UserProfilePage = () => {
 	return (
-		<div className="Imagen-perfil">
-			<h3>Ana Sánchez</h3>
+		<Grid container columns={300}>
+			<img src={imgUsuario} alt="" />
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
 				reiciendis dolorum deleniti illum numquam optio repudiandae quia est
@@ -12,7 +14,10 @@ export const UserProfilePage = () => {
 				Tenetur explicabo minus quam.
 			</p>
 
-			<img src={imgUsuario} alt="" />
-		</div>
+			{/* <Grid>3</Grid>
+				<Grid>4</Grid>
+				<Grid>5</Grid>
+				<Box>6</Box> */}
+		</Grid>
 	);
 };

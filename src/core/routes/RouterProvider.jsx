@@ -17,6 +17,10 @@ export const RouterProvider = () => {
 				<Route path="about" element={<About />} />
 				<Route path="form" element={<Form />} />
 			</Routes>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				<Route path="profile" element={<UserProfilePage />} />
+			</Routes>
 		</Layout>
 	);
 };
