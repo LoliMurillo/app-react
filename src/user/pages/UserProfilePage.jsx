@@ -14,10 +14,10 @@ export const UserProfilePage = () => {
 				Tenetur explicabo minus quam.
 			</p>
 
-			{/* <Grid>3</Grid>
-				<Grid>4</Grid>
-				<Grid>5</Grid>
-				<Box>6</Box> */}
+			<Grid>3</Grid>
+			<Grid>4</Grid>
+			<Grid>5</Grid>
+			<Box>6</Box>
 		</Grid>
 	);
 };
