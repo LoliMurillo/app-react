@@ -1,0 +1,16 @@
+.div-about {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	padding: 0 20px;
+	background-color: blueviolet(224, 204, 204);
+}
+@media (min-width: 768px) {
+	.div-about {
+		flex-direction: row;
+	}
+	.div-about p {
+		margin-right: 20px;
+	}
+}
