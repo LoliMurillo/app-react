@@ -7,24 +7,34 @@ const Navbar = () => {
 			<header>
 				<h1 className="Title">Relaciona/Tea</h1>
 				<nav>
-					<ul>
+					<label htmlFor="drop" className="toggle">
+						<span>&#9776;</span>
+					</label>
+					<input type="checkbox" id="drop" />
+					<ul className="menu">
 						<li>
 							<Link to={"/"}>Inicio</Link>
 						</li>
 						<li>
 							<Link to={"/profile"}>Perfil</Link>
 						</li>
+						<li>
+							<Link className="form-register" to={"/signup"}>
+								Regístrate
+							</Link>
+						</li>
+						<li>
+							<Link className="navbar-access" to={"/signin"}>
+								Inicia sesión
+							</Link>
+						</li>
+						<li>
+							<Link className="about-us" to={"/about"}>
+								Sobre Nosotros
+							</Link>
+						</li>
 					</ul>
 				</nav>
-				<Link className="form-register" to={"/signup"}>
-					Regístrate
-				</Link>
-				<Link className="navbar-access" to={"/signin"}>
-					Inicia sesión
-				</Link>
-				<Link className="about-us" to={"/about"}>
-					Sobre Nosotros
-				</Link>
 			</header>
 		</div>
 	);
